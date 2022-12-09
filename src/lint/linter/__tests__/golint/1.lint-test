@@ -1,0 +1,18 @@
+package main
+
+import (
+    "rand"
+)
+
+type Exported string
+
+func main() {
+    if rand.Intn(10) > 5 {
+        return true
+    } else {
+        return false
+    }
+}
+~~~~~~~~~~
+error:7:6
+error:12:12
